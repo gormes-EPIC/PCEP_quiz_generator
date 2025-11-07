@@ -161,11 +161,11 @@ What will be the output of the following code?\n    x=5\n    def fun(x):\n      
 What will be the output when the following code is executed?\n    count = 0\n    for i in range(0,2):\n        for j in range(0,2):\n            count+=1\n    print(count);0;2;4;1;;2;161
 "What will be the output when the following code is executed?\n    str1 = ""Hello""\n    str2 = ""HeLLo""\n    print(str1 == str2.capitalize())";True;False;;;;0;162
 "What will the output be when the following code is executed?\n    name1 = name2 = name3 = ""Robert""\n    print(name3)";name2;Robert;name1;SyntaxError;;1;163
-What is the output of the following code snippet?\n    a=0\n    b=1\n    while a < 1:\n        while b < 2:\n            print(a, b)\n            a += 1\n     b += 1;1 0 ;0 1 ;1 1 ;1 2 ;;1;164
+What is the output of the following code snippet?\n    a=0\n    b=1\n    while a < 1:\n        while b < 2:\n            print(a, b)\n            a += 1\n            b += 1;1 0 ;0 1 ;1 1 ;1 2 ;;1;164
 "What is the output of the following code when executed?\n    me = ""apples"",\n    print(type(me))";SyntaxError;<class 'tuple'>;<class 'str'>;;;1;165
 What will be the output when this code is executed?\n    lst = [x for x in range(3)]\n    print(lst);[1, 2, 3];[3];[0, 1, 2, 3];[0, 1, 2];;3;166
 "How many times will the character ""*"" get printed to the console?\n    x = 1\n    if x > 0:\n        print(""*"")\n        if x < 2:\n            print(""*"")\n        elif x == 1:\n            print(""*"")\n        else:\n            print(""*"")\n    else:\n        print(""*"")";1;2;0;4;;1;167
-What is the output of this program after it is executed?\n    def squared(num):\n        global sq\n        sq = num ** 2\n    squared(5)\n    print(sq);25;Error;10;num ** 2;;0;168
+What is the output of this program after it is executed?\n    def squared(num):\n        global sq\n        sq = num ** 2\n    squared(5)\n     print(sq);25;Error;10;num ** 2;;0;168
 "What do you expect the following code to output?\n    a = False\n    b = True\n    if a or b:\n        print(""True"")\n    else:\n        print(""False"")";True;False;;;;0;169
 "What is the output of the following code snippet?\n    address_book = {'name': ""Robert"", 'age': 28, 'city': ""Dar es salaam""}\n    while address_book:\n        address_book.popitem()\n    print(address_book)";SyntaxError;{};"{''age': 28, 'city': ""Dar es salaam""}";"{'name': ""Robert"", 'age': 28}";;1;170
 What is the output of this code when 3.14 and 1.0 are entered by the user when prompted and stored variables in pi and radius, respectively?\n    pi = float(input())\n    radius = int(input())\n    area = pi * radius **2\n    print(area);3;9.8;3.14;ValueError: invalid literal for int() with base 10: '1.0';;1;171
